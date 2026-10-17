@@ -38,4 +38,5 @@ ChatGPT hỗ trợ phân tích, viết HTML/CSS/SVG, giải thích mã, soạn b
 index.html; styles.css; images/; README.md; AI_USAGE.md; SURVEY.md; TESTING.md; HUONG_DAN_NOP.md; SOURCES.md.
 
 ## 9. Thông tin nộp bài
-Sinh viên: Mã Tuấn Kiệt. MSSV: 31241024731. Lớp: EE0002. Liên kết GitHub cần được bổ sung sau khi công khai repository. Repository và Pages hiện chưa được tạo; không có đường dẫn triển khai được xác nhận.
+Sinh viên: Mã Tuấn Kiệt. MSSV: 31241024731. Lớp: EE0002. Liên kết GitHub cần được bổ sung sau khi công khai repository. 
+
