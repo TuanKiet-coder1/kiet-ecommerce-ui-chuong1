@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bài tập Chương 1 của Kiệt: cải tiến thẻ sách bằng HTML5 và CSS3.">
+  <title>Mộc | Tủ sách học tập</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#noi-dung">Chuyển đến nội dung chính</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#dau-trang" aria-label="Mộc, về đầu trang">mộc<span>NHÀ SÁCH HỌC TẬP</span></a>
+      <nav aria-label="Điều hướng chính"><a href="#tu-sach">Tủ sách</a><a href="#gioi-thieu">Về Mộc</a></nav>
+    </div>
+  </header>
+  <main id="noi-dung">
+    <section id="dau-trang" class="hero container" aria-labelledby="tieu-de">
+      <div><p class="eyebrow">TỦ SÁCH CHO NGÀY MỚI</p><h1 id="tieu-de">Một cuốn sách.<br>Một điều mới để học.</h1><p class="hero-copy">Tìm cảm hứng cho việc học, từ những kiến thức nền tảng đến thói quen mỗi ngày.</p><a class="hero-link" href="#tu-sach">Khám phá 4 cuốn sách <span aria-hidden="true">↓</span></a></div>
+      <aside class="hero-note" aria-label="Gợi ý đọc sách">
+  <span>TỦ SÁCH TRUYỀN CẢM HỨNG</span>
+
+  <div class="hero-books" aria-hidden="true">
+    <img src="images/html-css.svg" alt="">
+    <img src="images/tu-duy.svg" alt="">
+    <img src="images/ghi-chep.svg" alt="">
+  </div>
+
+  <p>Chậm lại một chút.<br>Đọc sâu hơn một chút.</p>
+
+  <div class="hero-tags">
+    <span>Kiến thức mới</span>
+    <span>Thói quen tốt</span>
+  </div>
+</aside>
+<span class="collection-no">01 / 04</span><p>Chậm lại một chút.<br>Đọc sâu hơn một chút.</p><span>TỦ SÁCH HỌC TẬP</span></aside>
+    </section>
+    <section id="tu-sach" class="catalog container" aria-labelledby="catalog-title">
+      <div class="section-heading"><div><p class="eyebrow">CHỌN MỘT ĐIỂM BẮT ĐẦU</p><h2 id="catalog-title">Dành cho hành trình học của bạn</h2></div><p>04 sản phẩm mẫu</p></div>
+      <div class="product-grid">
+      <article class="product-card" aria-labelledby="html-css-title" data-original="120000" data-price="96000" data-discount="20">
+        <div class="product-art"><img src="images/html-css.svg" alt="Bìa minh họa sách HTML và CSS nhập môn" width="360" height="450"><span class="discount">Giảm 20%</span></div>
+        <div class="product-body">
+          <p class="category">Công nghệ</p>
+          <h3 id="html-css-title">HTML và CSS nhập môn</h3>
+          <p class="price"><span class="sr-only">Giá bán: </span>96.000 đ</p>
+          <p class="original-price">Giá gốc <del>120.000 đ</del></p>
+          <p class="saving">Tiết kiệm 24.000 đ</p>
+          <details class="product-info">
+            <summary aria-label="Xem thông tin sách HTML và CSS nhập môn">Xem thông tin <span aria-hidden="true">+</span></summary>
+            <div class="description"><p>Từ cấu trúc HTML đến bố cục CSS, dành cho người mới bắt đầu.</p><p>240 trang · Bìa mềm · Tiếng Việt.</p><p>Sản phẩm và giá giả định phục vụ bài tập.</p></div>
+          </details>
+        </div>
+      </article>
+      <article class="product-card" aria-labelledby="tu-duy-title" data-original="150000" data-price="112500" data-discount="25">
+        <div class="product-art"><img src="images/tu-duy.svg" alt="Bìa minh họa sách Tư duy thiết kế cho người mới bắt đầu" width="360" height="450"><span class="discount">Giảm 25%</span></div>
+        <div class="product-body">
+          <p class="category">Thiết kế</p>
+          <h3 id="tu-duy-title">Tư duy thiết kế cho người mới bắt đầu</h3>
+          <p class="price"><span class="sr-only">Giá bán: </span>112.500 đ</p>
+          <p class="original-price">Giá gốc <del>150.000 đ</del></p>
+          <p class="saving">Tiết kiệm 37.500 đ</p>
+          <details class="product-info">
+            <summary aria-label="Xem thông tin sách Tư duy thiết kế cho người mới bắt đầu">Xem thông tin <span aria-hidden="true">+</span></summary>
+            <div class="description"><p>Tìm hiểu nhu cầu người dùng và phác thảo giải pháp giao diện.</p><p>216 trang · Bìa mềm · Tiếng Việt.</p><p>Sản phẩm và giá giả định phục vụ bài tập.</p></div>
+          </details>
+        </div>
+      </article>
+      <article class="product-card" aria-labelledby="thoi-gian-title" data-original="200000" data-price="170000" data-discount="15">
+        <div class="product-art"><img src="images/thoi-gian.svg" alt="Bìa minh họa sách Quản lý thời gian học tập" width="360" height="450"><span class="discount">Giảm 15%</span></div>
+        <div class="product-body">
+          <p class="category">Kỹ năng</p>
+          <h3 id="thoi-gian-title">Quản lý thời gian học tập</h3>
+          <p class="price"><span class="sr-only">Giá bán: </span>170.000 đ</p>
+          <p class="original-price">Giá gốc <del>200.000 đ</del></p>
+          <p class="saving">Tiết kiệm 30.000 đ</p>
+          <details class="product-info">
+            <summary aria-label="Xem thông tin sách Quản lý thời gian học tập">Xem thông tin <span aria-hidden="true">+</span></summary>
+            <div class="description"><p>Xây dựng ưu tiên, lịch học và khoảng nghỉ phù hợp với bản thân.</p><p>192 trang · Bìa mềm · Tiếng Việt.</p><p>Sản phẩm và giá giả định phục vụ bài tập.</p></div>
+          </details>
+        </div>
+      </article>
+      <article class="product-card" aria-labelledby="ghi-chep-title" data-original="180000" data-price="126000" data-discount="30">
+        <div class="product-art"><img src="images/ghi-chep.svg" alt="Bìa minh họa sách Ghi chép hiệu quả mỗi ngày" width="360" height="450"><span class="discount">Giảm 30%</span></div>
+        <div class="product-body">
+          <p class="category">Học tập</p>
+          <h3 id="ghi-chep-title">Ghi chép hiệu quả mỗi ngày</h3>
+          <p class="price"><span class="sr-only">Giá bán: </span>126.000 đ</p>
+          <p class="original-price">Giá gốc <del>180.000 đ</del></p>
+          <p class="saving">Tiết kiệm 54.000 đ</p>
+          <details class="product-info">
+            <summary aria-label="Xem thông tin sách Ghi chép hiệu quả mỗi ngày">Xem thông tin <span aria-hidden="true">+</span></summary>
+            <div class="description"><p>Thực hành tổ chức ghi chú và tự đặt câu hỏi khi ôn tập.</p><p>208 trang · Bìa mềm · Tiếng Việt.</p><p>Sản phẩm và giá giả định phục vụ bài tập.</p></div>
+          </details>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section id="gioi-thieu" class="about container" aria-labelledby="about-title"><h2 id="about-title">Một tủ sách nhỏ, thông tin rõ ràng</h2><p>Mỗi thẻ sách hiển thị đầy đủ tên, giá bán, giá gốc và số tiền tiết kiệm. Chọn “Xem thông tin” để đọc mô tả ngay trên trang.</p><p class="demo-note">Đây là giao diện minh họa cho bài tập của Kiệt. Toàn bộ sản phẩm, bìa sách và giá là dữ liệu mẫu; không phát sinh đơn hàng.</p></section>
+  </main>
+  <footer class="container site-footer"><p>mộc / Bài tập Chương 1</p><p>HTML5 & CSS3 · Mã Tuấn Kiệt · 2026</p></footer>
+<!-- Khung tư vấn minh họa bằng HTML/CSS -->
+<details class="book-chat">
+  <summary class="chat-toggle">✦ Hỏi Mộc</summary>
+
+  <div class="chat-panel">
+    <div class="chat-header">
+      <div class="chat-avatar" aria-hidden="true">M</div>
+
+      <div>
+        <h2>Chào bạn, mình là Mộc!</h2>
+        <p>Cùng tìm một cuốn sách phù hợp nhé.</p>
+      </div>
+    </div>
+
+    <div class="chat-content">
+      <p class="chat-message">
+        Bạn đang muốn học điều gì?
+        Chọn một câu hỏi bên dưới để xem gợi ý của mình.
+      </p>
+
+      <details class="chat-faq">
+        <summary>Mình mới bắt đầu học lập trình</summary>
+        <p class="chat-answer">
+          Bạn có thể bắt đầu với
+          <strong>HTML và CSS nhập môn</strong>.
+          Sách giới thiệu cấu trúc trang web và cách tạo bố cục,
+          phù hợp với người mới học.
+          <a href="#html-css-title">Xem cuốn sách này →</a>
+        </p>
+      </details>
+
+      <details class="chat-faq">
+        <summary>Mình muốn thiết kế giao diện đẹp hơn</summary>
+        <p class="chat-answer">
+          Mộc gợi ý
+          <strong>Tư duy thiết kế cho người mới bắt đầu</strong>.
+          Nội dung tập trung vào nhu cầu người dùng
+          và cách phác thảo giải pháp giao diện.
+          <a href="#tu-duy-title">Xem cuốn sách này →</a>
+        </p>
+      </details>
+
+      <details class="chat-faq">
+        <summary>Mình muốn sắp xếp thời gian học</summary>
+        <p class="chat-answer">
+          Bạn có thể tham khảo
+          <strong>Quản lý thời gian học tập</strong>
+          để tìm hiểu cách xác định ưu tiên,
+          lên lịch học và bố trí thời gian nghỉ.
+          <a href="#thoi-gian-title">Xem cuốn sách này →</a>
+        </p>
+      </details>
+
+      <details class="chat-faq">
+        <summary>Có sách nào dưới 100.000 đồng không?</summary>
+        <p class="chat-answer">
+          Trong bộ dữ liệu mẫu,
+          <strong>HTML và CSS nhập môn</strong>
+          có giá <strong>96.000 đồng</strong>.
+          Bạn có thể xem thêm mô tả ngay trên thẻ sách.
+          <a href="#html-css-title">Xem cuốn sách này →</a>
+        </p>
+      </details>
+
+      <p class="chat-disclaimer">
+        Tư vấn bằng câu trả lời mẫu · Chưa kết nối AI.
+        Bấm “Hỏi Mộc” lần nữa để đóng.
+      </p>
+    </div>
+  </div>
+</details>
+</body>
+</html>

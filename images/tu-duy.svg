@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="450" viewBox="0 0 360 450">
+  <title>Bìa minh họa Tư duy thiết kế cho người mới bắt đầu</title>
+  <rect width="360" height="450" rx="5" fill="#d1b08a"/>
+  <path d="M22 0v450" stroke="#252e2a" stroke-opacity=".25" stroke-width="2"/>
+  <text x="46" y="62" font-family="Arial,sans-serif" font-size="13" fill="#252e2a" letter-spacing="3">MỘC / TỦ SÁCH HỌC TẬP</text>
+  <circle cx="242" cy="284" r="83" fill="none" stroke="#252e2a" stroke-width="2"/>
+  <path d="M81 348L242 187M106 374L268 213M157 397L292 263" stroke="#252e2a" stroke-width="2"/>
+  <text x="46" y="133" font-family="Arial,sans-serif" font-weight="bold" font-size="29" fill="#252e2a">TƯ DUY</text>
+  <text x="46" y="175" font-family="Arial,sans-serif" font-weight="bold" font-size="29" fill="#252e2a">THIẾT KẾ</text>
+  <text x="46" y="418" font-family="Arial,sans-serif" font-size="12" fill="#252e2a">ẤN PHẨM MẪU / KHÔNG KINH DOANH</text>
+</svg>

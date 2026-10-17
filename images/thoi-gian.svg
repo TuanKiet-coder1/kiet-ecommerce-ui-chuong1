@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="450" viewBox="0 0 360 450">
+  <title>Bìa minh họa Quản lý thời gian học tập</title>
+  <rect width="360" height="450" rx="5" fill="#34485b"/>
+  <path d="M22 0v450" stroke="#f6e9ce" stroke-opacity=".25" stroke-width="2"/>
+  <text x="46" y="62" font-family="Arial,sans-serif" font-size="13" fill="#f6e9ce" letter-spacing="3">MỘC / TỦ SÁCH HỌC TẬP</text>
+  <circle cx="242" cy="284" r="83" fill="none" stroke="#f6e9ce" stroke-width="2"/>
+  <path d="M81 348L242 187M106 374L268 213M157 397L292 263" stroke="#f6e9ce" stroke-width="2"/>
+  <text x="46" y="133" font-family="Arial,sans-serif" font-weight="bold" font-size="29" fill="#f6e9ce">THỜI GIAN</text>
+  <text x="46" y="175" font-family="Arial,sans-serif" font-weight="bold" font-size="29" fill="#f6e9ce">HỌC TẬP</text>
+  <text x="46" y="418" font-family="Arial,sans-serif" font-size="12" fill="#f6e9ce">ẤN PHẨM MẪU / KHÔNG KINH DOANH</text>
+</svg>
