@@ -1,0 +1,16 @@
+{
+  "repository": "TuanKiet-coder1/kiet-ecommerce-ui-chuong1",
+  "visibility": "public",
+  "default_branch": "main",
+  "permissions": {
+    "pull": true,
+    "push": false
+  },
+  "file": {
+    "path": "index.html",
+    "sha": "142ec26699d70e06a4065884a17bbf830889d59e",
+    "display_url": "https://github.com/TuanKiet-coder1/kiet-ecommerce-ui-chuong1/blob/main/index.html"
+  },
+  "observation": "Bản công khai chứa collection-no và thẻ đóng aside dư sau hero; ZIP đã bỏ đoạn này.",
+  "status": "Chỉ đọc; không commit/push; Pages chưa xác minh."
+}

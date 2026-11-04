@@ -1,0 +1,63 @@
+{
+  "pham_vi": "Kiểm tra tệp tại môi trường xử lý; không thay thế thử trình duyệt hoặc xác nhận sinh viên",
+  "kiem_tra": [
+    {
+      "noi_dung": "HTML được phân tích bằng lxml",
+      "ket_qua": "Đạt kiểm tra mã",
+      "can_cu": "; không thay thế Nu HTML Checker"
+    },
+    {
+      "noi_dung": "ID không trùng",
+      "ket_qua": "Đạt kiểm tra mã",
+      "can_cu": "11 ID"
+    },
+    {
+      "noi_dung": "Đích liên kết nội trang",
+      "ket_qua": "Đạt kiểm tra mã",
+      "can_cu": "9 liên kết nội trang"
+    },
+    {
+      "noi_dung": "CSS ngoài",
+      "ket_qua": "Đạt kiểm tra mã",
+      "can_cu": "index.html liên kết styles.css hiện hữu"
+    },
+    {
+      "noi_dung": "Ảnh và alt",
+      "ket_qua": "Đạt kiểm tra mã",
+      "can_cu": "7 thẻ img; 4 ảnh sản phẩm có alt mô tả, 3 ảnh trang trí alt rỗng"
+    },
+    {
+      "noi_dung": "SVG phân tích XML",
+      "ket_qua": "Đạt kiểm tra mã",
+      "can_cu": "4 tệp SVG cục bộ; chưa xác nhận hiển thị trên trình duyệt"
+    },
+    {
+      "noi_dung": "Giữ nguyên bốn thẻ sách",
+      "ket_qua": "Đạt kiểm tra mã",
+      "can_cu": "Đối chiếu XML của từng article với bản ZIP gốc"
+    },
+    {
+      "noi_dung": "Số học giá mẫu",
+      "ket_qua": "Đạt kiểm tra mã",
+      "can_cu": "Giá bán và giá gốc khớp tỷ lệ giảm ở 4 thẻ"
+    },
+    {
+      "noi_dung": "Không script hoặc tài nguyên web ngoài",
+      "ket_qua": "Đạt kiểm tra mã",
+      "can_cu": "Không thẻ script; ảnh cục bộ; CSS ngoài nội bộ"
+    },
+    {
+      "noi_dung": "Cân bằng ngoặc CSS",
+      "ket_qua": "Đạt kiểm tra mã",
+      "can_cu": "Kiểm tra dấu ngoặc và đọc thủ công bản vá; chưa xác minh bằng CSS validator hoặc trình duyệt"
+    },
+    {
+      "noi_dung": "Bảo toàn tài nguyên và tài liệu không sửa",
+      "ket_qua": "Đạt kiểm tra mã",
+      "can_cu": "31 tệp so khớp từng byte, gồm ảnh minh chứng gốc"
+    }
+  ],
+  "trinh_duyet": "Chưa chạy được: thiếu Chromium executable cho Playwright",
+  "sinh_vien": "Chờ sinh viên xác nhận",
+  "pages": "Chưa xác minh Buổi 2"
+}

@@ -1,21 +1,15 @@
 # Tài liệu tham khảo
 
-Truy xuất ngày 17/10/2026. Các trang công khai có thể thay đổi.
+Đề bài do giảng viên cung cấp; nguồn web và khảo sát bổ sung ngày 18/10/2026.
 
-[0] Nguyễn Mạnh Tuấn. Bài tập cá nhân Chương 1, học phần Phát triển ứng dụng WEB/TMĐT. Tài liệu do giảng viên cung cấp, 11 trang.
-
+[0] Nguyễn Mạnh Tuấn. Bài tập cá nhân Chương 1 học phần Phát triển ứng dụng WEB TMĐT, 11 trang.
 [1] FAHASA. Trang chủ. https://www.fahasa.com/
-
-[2] FAHASA. Danh mục Sách tiếng Việt. https://www.fahasa.com/sach-trong-nuoc.html
-
-[3] FAHASA. Atlat Địa Lí Việt Nam Chỉnh Sửa Năm 2025. https://www.fahasa.com/catalog/product/view/id/921423
-
-[4] MDN Web Docs. CSS grid layout. https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout
-
-[5] W3C WAI. Understanding Success Criterion 2.5.8 Target Size Minimum. https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html
-
-[6] GitHub Docs. Creating a new repository. https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository
-
-[7] GitHub Docs. Configuring a publishing source for your GitHub Pages site. https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
-
-Bốn sản phẩm của Mộc là giả định; không lấy giá trong danh mục FAHASA làm dữ liệu bán hàng cho bản mẫu. Bìa SVG được tạo riêng bằng hình học và chữ. Không sao chép logo, ảnh hay mã của FAHASA.
+[2] FAHASA. Danh mục Kinh Tế sau lọc và sắp xếp. https://www.fahasa.com/sach-trong-nuoc/kinh-te-chinh-tri-phap-ly.html?order=min_price&limit=24&p=1&price=0,150000
+[3] FAHASA. Chi tiết sản phẩm Hệ Thống Tài Khoản Kế Toán. https://www.fahasa.com/he-thong-tai-khoan-ke-toan-sua-doi-theo-thong-tu-so-99-2025-tt-btc.html?fhs_campaign=CATEGORY
+[4] FAHASA. Tìm Đắc nhân tâm với trạng thái Còn hàng. https://www.fahasa.com/searchengine?q=%C4%90%E1%BA%AFc%20nh%C3%A2n%20t%C3%A2m&size=n_48_n&filters%5B0%5D%5Bfield%5D=stock_status&filters%5B0%5D%5Bvalues%5D%5B0%5D=n_1_n&filters%5B0%5D%5Btype%5D=all
+[5] FAHASA. Tìm từ khóa thử không tồn tại. https://www.fahasa.com/searchengine?q=sachkhongtontai123456&size=n_48_n&filters%5B0%5D%5Bfield%5D=stock_status&filters%5B0%5D%5Bvalues%5D%5B0%5D=n_1_n&filters%5B0%5D%5Btype%5D=all
+[6] FAHASA. Giỏ hàng trong phiên khảo sát. https://www.fahasa.com/checkout/cart/
+[7] MDN Web Docs. Phần tử details và summary. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details
+[8] MDN Web Docs. CSS Grid layout. https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout
+[9] MDN Web Docs. Using media queries. https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using
+[10] GitHub Docs. Creating a GitHub Pages site. https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site

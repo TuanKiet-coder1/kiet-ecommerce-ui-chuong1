@@ -1,32 +1,30 @@
 # Khảo sát FAHASA
 
-Ngày truy xuất: 17/10/2026. Phương pháp: đọc nội dung công khai qua công cụ truy xuất web. Trình duyệt trực tiếp trả lỗi 502 Connection refused kể cả sau một lần tải lại; đây là giới hạn của phiên truy cập, không chứng minh website đang ngừng hoạt động.
+Khảo sát bổ sung ngày 18/10/2026 (giờ Việt Nam), do ChatGPT hỗ trợ thao tác trình duyệt theo yêu cầu của Kiệt. Các nhận xét dưới đây dựa trên trang thực tế; đề xuất là đánh giá thiết kế, chưa phải kết quả đo với người dùng.
 
-Quan sát nội dung không thay thế kiểm thử hành vi hoặc đánh giá bố cục trên ảnh màn hình. Các nhận định rủi ro dưới đây là giả thuyết thiết kế.
-
-| Khu vực | Nội dung xác nhận | Đánh giá và giới hạn | Đề xuất |
+| Khu vực | Chức năng và thao tác quan sát | Điểm hợp lý và điểm cần cải thiện | Đề xuất và lý do |
 |---|---|---|---|
-| Trang chủ | Có cây danh mục, khu vực xu hướng, nhóm sách bán chạy và liên kết khuyến mãi [1]. | Điểm hợp lý: hỗ trợ nhiều hướng khám phá. Rủi ro cần thử: nhiều nhóm nội dung có thể làm phân tán chú ý. | Đề xuất: ưu tiên một thông điệp chính và nhóm sản phẩm theo nhu cầu học tập. |
-| Danh mục sản phẩm | Trang sách tiếng Việt có nhóm lọc, lựa chọn thứ tự hiển thị, tên sách và thông tin giá [2]. | Điểm hợp lý: hỗ trợ thu hẹp danh sách. Chưa kiểm chứng thao tác lọc hoặc thứ tự sau khi chọn. | Đề xuất: thống nhất cấu trúc thẻ, giữ đủ tên và hiển thị rõ cặp giá. |
-| Chi tiết sản phẩm | Trang Atlat có ảnh, thuộc tính, giá, trường số lượng, mô tả và nhãn thao tác mua [3]. | Điểm hợp lý: có thông tin nhận diện ấn bản. Chưa xác nhận nút mua và cập nhật số lượng hoạt động. | Đề xuất: đặt tên, phiên bản, giá và thao tác chính thành nhóm rõ ràng. |
-| Tìm kiếm | Có trường nhập cùng nhãn gợi ý và sản phẩm trong nội dung công khai [1]. Chưa đọc được trang kết quả. | Điểm hợp lý: có điểm vào tìm kiếm. Chưa xác nhận gợi ý, sửa lỗi gõ hoặc trạng thái không có kết quả. | Đề xuất: giữ từ khóa đã nhập; có hướng dẫn khi không tìm thấy. Cần thử trực tiếp. |
-| Giỏ hàng | Có liên kết Giỏ Hàng [1]. Trang giỏ hàng chưa truy cập được trong phiên khảo sát. | Chưa đủ căn cứ đánh giá bố cục giỏ, tổng tiền, xóa hàng hay thay đổi số lượng. | Đề xuất kiểm tra: tách thành tiền, phí giao hàng và tổng dự kiến; thông báo khi cập nhật. |
+| Trang chủ | Có banner luân phiên, ô tìm kiếm ở đầu trang, liên kết danh mục, Flash Sale và nhóm sách nổi bật. | Nhiều lối vào sản phẩm. Nhiều banner và ưu đãi cùng xuất hiện làm mật độ thông tin cao. | Ưu tiên thông điệp chính và nhóm hàng theo nhu cầu; giảm các điểm nhấn cạnh tranh nhau. |
+| Danh mục sản phẩm | Danh mục Kinh Tế có lọc giá, nhà cung cấp và sắp xếp. Đã chọn 0–150.000 đồng và Giá Bán; các giá đầu là 8.000, 13.000, 17.520, 19.000 đồng. | Có nhãn bộ lọc đang dùng. Một số tên sách dài bị rút gọn; xuất hiện nhóm Genres như Comedy, Shounen trong danh mục Kinh Tế. | Cho đọc tên đầy đủ khi cần; ưu tiên bộ lọc phù hợp với nhóm sách để việc lựa chọn rõ hơn. |
+| Chi tiết sản phẩm | Có ảnh, tên đầy đủ, nhà cung cấp, tác giả, giá, mô tả, số lượng và hai nút mua. Sản phẩm thử hiển thị 8.000 đồng, giá gốc 10.000 đồng, giảm 20%. | Thông tin nhận diện và giá dễ đối chiếu. Các ưu đãi, vận chuyển và thuộc tính tạo thành trang dài. | Nhóm thông tin mua hàng gần nhau; dùng vùng mở rộng cho nội dung phụ, giữ thông tin chính dễ nhận diện. |
+| Tìm kiếm | Tìm Đắc nhân tâm được 46 kết quả khi đang chọn Còn hàng. Tìm sachkhongtontai123456 được 0 kết quả. Từ khóa được giữ lại trong ô nhập. | Có số kết quả và bộ lọc. Vùng kết quả rỗng chưa có hướng dẫn đổi từ khóa; phía dưới vẫn có nhóm Gợi ý cho bạn. | Thêm gợi ý rút gọn hoặc đổi từ khóa; phân biệt rõ sản phẩm gợi ý với kết quả khớp truy vấn. |
+| Giỏ hàng | Đã thêm một sản phẩm, chọn sản phẩm và tăng số lượng bằng nút cộng lên 2. Thành tiền và tổng tiền cập nhật thành 16.000 đồng. Sau khi xóa, giỏ báo 0 sản phẩm. | Có ảnh, tên, giá và tổng đơn riêng. Tổng tiền phụ thuộc sản phẩm được chọn; nhiều ưu đãi nằm cạnh phần tóm tắt. | Nêu rõ tổng tiền của các sản phẩm đã chọn; làm trạng thái cập nhật nổi bật và gom ưu đãi phụ. |
 
-## Đối chiếu trực tiếp cần bổ sung
+## Phạm vi
+Không đăng nhập, không đặt hàng hoặc thanh toán. Sản phẩm thêm vào giỏ chỉ phục vụ khảo sát; đã quan sát giỏ trống sau thao tác xóa. Số kết quả, giá và ưu đãi chỉ phản ánh phiên khảo sát. Không kết luận về hiệu quả kinh doanh, tốc độ hoặc chất lượng toàn hệ thống.
 
-1. Mở trang chủ và ghi lại cách bố trí banner, sản phẩm nổi bật.
-2. Chọn một bộ lọc và cách sắp xếp; ghi lại thay đổi thực tế.
-3. Mở sản phẩm, kiểm tra ảnh, giá, mô tả và thao tác thêm giỏ.
-4. Tìm tên sách đã biết và một từ khóa không tồn tại; ghi lại cả hai trạng thái.
-5. Kiểm tra giỏ trống và giỏ có một sản phẩm; đổi số lượng rồi xóa sản phẩm. Không đặt hàng.
-6. Ghi ngày, thiết bị, URL và nhận xét của Kiệt; sửa bảng nếu kết quả khác.
+## Minh chứng
+Ảnh gốc nằm trong minh-chung/fahasa-*.jpg. Nguồn khảo sát bổ sung được ghi riêng với ảnh tự thử Mộc của sinh viên.
 
-## Tài liệu tham khảo
-
-[0] Nguyễn Mạnh Tuấn. Bài tập cá nhân Chương 1, học phần Phát triển ứng dụng WEB/TMĐT. Tài liệu do giảng viên cung cấp, 11 trang.
-
+## Nguồn
+[0] Nguyễn Mạnh Tuấn. Bài tập cá nhân Chương 1 học phần Phát triển ứng dụng WEB TMĐT, 11 trang.
 [1] FAHASA. Trang chủ. https://www.fahasa.com/
-
-[2] FAHASA. Danh mục Sách tiếng Việt. https://www.fahasa.com/sach-trong-nuoc.html
-
-[3] FAHASA. Atlat Địa Lí Việt Nam Chỉnh Sửa Năm 2025. https://www.fahasa.com/catalog/product/view/id/921423
+[2] FAHASA. Danh mục Kinh Tế sau lọc và sắp xếp. https://www.fahasa.com/sach-trong-nuoc/kinh-te-chinh-tri-phap-ly.html?order=min_price&limit=24&p=1&price=0,150000
+[3] FAHASA. Chi tiết sản phẩm Hệ Thống Tài Khoản Kế Toán. https://www.fahasa.com/he-thong-tai-khoan-ke-toan-sua-doi-theo-thong-tu-so-99-2025-tt-btc.html?fhs_campaign=CATEGORY
+[4] FAHASA. Tìm Đắc nhân tâm với trạng thái Còn hàng. https://www.fahasa.com/searchengine?q=%C4%90%E1%BA%AFc%20nh%C3%A2n%20t%C3%A2m&size=n_48_n&filters%5B0%5D%5Bfield%5D=stock_status&filters%5B0%5D%5Bvalues%5D%5B0%5D=n_1_n&filters%5B0%5D%5Btype%5D=all
+[5] FAHASA. Tìm từ khóa thử không tồn tại. https://www.fahasa.com/searchengine?q=sachkhongtontai123456&size=n_48_n&filters%5B0%5D%5Bfield%5D=stock_status&filters%5B0%5D%5Bvalues%5D%5B0%5D=n_1_n&filters%5B0%5D%5Btype%5D=all
+[6] FAHASA. Giỏ hàng trong phiên khảo sát. https://www.fahasa.com/checkout/cart/
+[7] MDN Web Docs. Phần tử details và summary. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details
+[8] MDN Web Docs. CSS Grid layout. https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout
+[9] MDN Web Docs. Using media queries. https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using
+[10] GitHub Docs. Creating a GitHub Pages site. https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
