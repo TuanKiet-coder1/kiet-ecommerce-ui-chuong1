@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bài tập 2 - CSS cơ bản</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 32px 16px; font-family: Arial, sans-serif; color: #253044; background-color: #eef2f5; background-image: url("https://ueh.edu.vn/schools/college/images/logo/bit-header-logo.png"); background-size: 30px auto; background-repeat: repeat; background-attachment: fixed; }
+    main { max-width: 760px; margin: auto; padding: 32px; border-radius: 16px; background: rgba(255,255,255,.96); box-shadow: 0 8px 30px rgba(0,0,0,.14); }
+    h1 { margin: 0 0 8px; font-size: 24px; }
+    .intro { color: #5b6574; line-height: 1.6; }
+    section { margin-top: 24px; padding: 20px; border: 1px solid #e1e7ed; border-radius: 10px; }
+    h2 { margin: 0 0 14px; font-size: 17px; }
+    .ueh { color: blue; text-align: center; font-weight: bold; text-decoration: underline; font-size: 30px; }
+    .khoa { color: rgba(255, 0, 0, .5); text-align: right; font-style: italic; border: 2px dotted yellow; border-radius: 10px; background: gray; font-size: 15px; padding: 12px; }
+    .bit { display: inline-block; margin: 8px 0; padding: 12px 16px; font-family: Arial, sans-serif; color: #b8d85b; font-size: 48px; font-weight: bold; background: #e3ecc2; text-shadow: 3px 3px 0 #8c160f, 6px 6px 3px #a31910, 9px 9px 12px #7a100a, 0 0 18px #98a947; }
+    .overflow-box { width: 100px; height: 50px; overflow: hidden; border: 1px solid #707d89; margin: 10px 0; }
+    .ellipsis { white-space: nowrap; text-overflow: ellipsis; }
+    .note { color: #596779; font-size: 14px; line-height: 1.5; }
+    @media (max-width: 500px) { main { padding: 20px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Bài tập 2 · CSS cơ bản</h1>
+    <p class="intro">Thực hành định dạng văn bản, hình nền và xử lý nội dung bị tràn.</p>
+    <section><h2>a. Định dạng chữ</h2><p class="ueh">Đại học UEH</p></section>
+    <section><h2>b. Định dạng khoa</h2><p class="khoa">Khoa CNTTD</p></section>
+    <section><h2>c. Chữ BIT-UEH</h2><p class="bit">BIT-UEH</p><p class="note">Hiệu ứng được tạo bằng thuộc tính text-shadow. <a href="https://html-css-js.com/css/generator/text-shadow/">Công cụ tham khảo trong đề</a>.</p></section>
+    <section><h2>d. Hình nền</h2><p>Logo BIT được đặt làm hình nền, lặp lại với chiều rộng 30px và cố định khi cuộn trang.</p></section>
+    <section><h2>e. Xử lý nội dung tràn</h2><p class="note">Khung 100px × 50px, ẩn nội dung tràn:</p><div class="overflow-box">Nhu cầu xã hội Ngành Thương mại điện tử (TMĐT) tại Việt Nam hiện nay đang có những bước tăng trưởng mạnh mẽ và ngày càng đóng góp nhiều hơn cho sự phát triển kinh tế xã hội của đất nước. Thị trường TMĐT Việt Nam đã trở nên sôi động hơn khi có nhiều</div><p class="note">Khung không xuống dòng và hiển thị dấu ba chấm:</p><div class="overflow-box ellipsis">Nhu cầu xã hội Ngành Thương mại điện tử (TMĐT) tại Việt Nam hiện nay đang có những bước tăng trưởng mạnh mẽ và ngày càng đóng góp nhiều hơn cho sự phát triển kinh tế xã hội của đất nước. Thị trường TMĐT Việt Nam đã trở nên sôi động hơn khi có nhiều</div></section>
+  </main>
+</body>
+</html>
+

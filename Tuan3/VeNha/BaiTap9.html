@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Bat Family</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #fff; font-family: Georgia, serif; }
+    #root { width: min(1024px, 100%); margin: 35px auto; text-align: center; }
+    #site-header { margin: 0 0 35px; padding: 15px 10px; background: #ccc; color: white; text-shadow: 2px 2px 2px #111; font-size: 30px; }
+    #site-header span { display: inline-block; padding-left: 65px; background: url('bai8-images/logo.png') no-repeat left center; background-size: 52px auto; }
+    .superheroes { margin: 0; padding: 0 10px; list-style: none; text-align: center; }
+    .superheroes li { display: inline-block; position: relative; width: 17%; margin: 0 2px 18px; vertical-align: top; transition: width .2s ease; }
+    .superheroes li:hover, .superheroes li:focus-within { width: 21%; }
+    .superheroes img { display: block; width: 100%; max-width: 100%; aspect-ratio: 1; object-fit: cover; border: 1px solid #ddd; border-radius: 15px; }
+    .hero-header { position: absolute; top: 12px; left: 0; width: 100%; color: white; text-shadow: 1px 1px 3px #111; opacity: .6; }
+    .superheroes li:hover .hero-header, .superheroes li:focus-within .hero-header { opacity: 1; }
+    .superheroes a { display: block; width: 100%; padding: 10px 4px; background: #666; color: white; text-decoration: none; visibility: hidden; }
+    .superheroes li:hover a, .superheroes li:focus-within a, .superheroes a:focus-visible { visibility: visible; text-decoration: underline; }
+    @media (max-width: 600px) { .superheroes li { width: 42%; } .superheroes li:hover, .superheroes li:focus-within { width: 46%; } }
+    .title-icon { margin-left: 10px; color: #424242; font-size: .65em; text-shadow: none; }
+    .superheroes a i { margin-left: 5px; font-size: .8em; }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <h1 id="site-header"><span>The Bat family</span><i class="fas fa-shield-alt title-icon" aria-hidden="true"></i></h1>
+    <ul class="superheroes">
+      <li><strong class="hero-header">Batman</strong><img src="bai8-images/superhero-1.jpg" alt="Batman"><a href="https://en.wikipedia.org/wiki/Batman">Read more <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></li>
+      <li><strong class="hero-header">Batwing</strong><img src="bai8-images/superhero-2.jpg" alt="Batwing"><a href="https://en.wikipedia.org/wiki/Batwing_(DC_Comics)">Read more <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></li>
+      <li><strong class="hero-header">Batgirl</strong><img src="bai8-images/superhero-3.jpg" alt="Batgirl"><a href="https://en.wikipedia.org/wiki/Batgirl">Read more <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></li>
+      <li><strong class="hero-header">Nightwing</strong><img src="bai8-images/superhero-4.jpg" alt="Nightwing"><a href="https://en.wikipedia.org/wiki/Nightwing">Read more <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></li>
+      <li><strong class="hero-header">Red Robin</strong><img src="bai8-images/superhero-5.jpg" alt="Red Robin"><a href="https://en.wikipedia.org/wiki/Red_Robin_(comics)">Read more <i class="fas fa-external-link-alt" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+</body>
+</html>
