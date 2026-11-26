@@ -1,0 +1,15 @@
+﻿MÂY VÍ — ỨNG DỤNG QUẢN LÝ THU CHI CÁ NHÂN
+Sinh viên: Mã Tuấn Kiệt | MSSV: 31241024731
+
+1. Khởi chạy
+Giải nén toàn bộ gói và mở index.html bằng Chrome hoặc Edge. HTML, CSS và JavaScript nằm trong tệp này. Ứng dụng chạy ngoại tuyến.
+
+2. Khám phá giao diện và thống kê
+Chọn “Xem sổ mẫu”. Ở khoản “Tiền giáo trình” 185.000 ₫, chọn “Đánh dấu hoàn tất”. Tổng chi tăng từ 230.000 ₫ lên 415.000 ₫. Quan sát ngân sách còn lại, biểu đồ danh mục và biểu đồ chi theo khoảng ngày.
+
+3. Kiểm tra thêm, sửa, xóa và lưu dữ liệu
+Chọn “Về sổ của tôi”. Thêm một khoản chi 100.000 ₫ ở trạng thái Dự kiến. Ghi nhận số đã chi, đánh dấu khoản này hoàn tất rồi kiểm tra số đã chi tăng 100.000 ₫. Tải lại trang để kiểm tra dữ liệu vẫn còn. Chọn Sửa, đổi thành 120.000 ₫ rồi lưu. Chọn Sửa một lần nữa, nhấn Xóa và xác nhận. Tổng chi trở về mức ban đầu.
+
+4. Kiểm tra cơ sở dữ liệu
+Trong Chrome hoặc Edge, mở F12 → Application → IndexedDB → MayVi. Kho transactions chứa giao dịch (khóa id, chỉ mục date, status và type). Kho budgets lưu hạn mức theo tháng (khóa month). Có thể cần bấm Refresh sau khi thao tác.
+Sổ cá nhân được lưu trong trình duyệt trên thiết bị đang dùng. Sổ mẫu dùng dữ liệu minh họa riêng trong phiên.
